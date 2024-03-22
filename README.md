@@ -57,4 +57,30 @@ Test case 4: Evaluate the first clause to false, and the rest to false.<br/>
 &emsp;&bull;Set mHasPerformedLongPress to true.<br/>
 
 
+#### Get CACC
+
+Test Case 1: <br/>
+&emsp;&bull;Set major clause (getParent() != null) to true and the rest of the conditions to true, causing p to be true.<br/>
+Test Case 2: <br/>
+&emsp;&bull;Set major clause to false and the rest of the conditions to true, causing p to be false.<br/>
+Test Case 3: <br/>
+&emsp;&bull;Set major clause to true and the rest of the conditions to false, causing p to be false.<br/>
+Test Case 4: <br/>
+&emsp;&bull;Set major clause to false and the rest of the conditions to false, causing p to be false.<br/>
+
+
+#### Get RACC
+
+Test Case 1: <br/>
+&emsp;&bull;Set major clause (getParent() != null) to true and the rest of the conditions to true, choosing specific values for the minor clauses.<br/>
+Test Case 2: <br/>
+&emsp;&bull;Set major clause to false and the rest of the conditions to true, ensuring the same values are chosen for the minor clauses as in Test Case 1.<br/>
+Test Case 3: <br/>
+&emsp;&bull;Set major clause to true and the rest of the conditions to false, choosing the same values for the minor clauses as in Test Case 1.<br/>
+Test Case 4: <br/>
+&emsp;&bull;Set major clause to false and the rest of the conditions to false, ensuring the same values are chosen for the minor clauses as in Test Case 1.<br/>
+
+
+
+
 
