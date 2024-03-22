@@ -31,3 +31,30 @@ Set getParent() to return null (false).<br/>
 Set hasWindowFocus() to return false.<br/>
 Set mOriginalWindowAttachCount and getWindowAttachCount() to be different (false).<br/>
 Set mHasPerformedLongPress to true, which is negated to false (!true = false).<br/>
+
+
+#### Get Clause Coverage:
+
+Test case 1: Evaluate the first clause to true, and the rest to true.<br/>
+&emsp;&bull;Set getParent() to return a non-null value (true).<br/>
+&emsp;&bull;Set hasWindowFocus() to return true.<br/>
+&emsp;&bull;Set mOriginalWindowAttachCount and getWindowAttachCount() to be equal.<br/>
+&emsp;&bull;Set mHasPerformedLongPress to false.<br/>
+Test case 2: Evaluate the first clause to false, and the rest to true.<br/>
+&emsp;&bull;Set getParent() to return null (false).<br/>
+&emsp;&bull;Set hasWindowFocus() to return true.<br/>
+&emsp;&bull;Set mOriginalWindowAttachCount and getWindowAttachCount() to be equal.<br/>
+&emsp;&bull;Set mHasPerformedLongPress to false.<br/>
+Test case 3: Evaluate the first clause to true, and the rest to false.<br/>
+&emsp;&bull;Set getParent() to return a non-null value (true).<br/>
+&emsp;&bull;Set hasWindowFocus() to return false.<br/>
+&emsp;&bull;Set mOriginalWindowAttachCount and getWindowAttachCount() to be different.<br/>
+&emsp;&bull;Set mHasPerformedLongPress to true.<br/>
+Test case 4: Evaluate the first clause to false, and the rest to false.<br/>
+&emsp;&bull;Set getParent() to return null (false).<br/>
+&emsp;&bull;Set hasWindowFocus() to return false.<br/>
+&emsp;&bull;Set mOriginalWindowAttachCount and getWindowAttachCount() to be different.<br/>
+&emsp;&bull;Set mHasPerformedLongPress to true.<br/>
+
+
+
